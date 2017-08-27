@@ -1,0 +1,24 @@
+{
+  "name": "play-tic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "setup": "npm install -g bower gulp && sudo rm -rf node_modules",
+    "start": "npm install && gulp && gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vikas chandra",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-gzip": "1.2.0",
+    "gulp-livereload": "3.8.1",
+    "gulp-uglify": "1.5.1",
+    "gulp-watch": "4.3.5",
+    "gulp-angular-templatecache": "1.8.0",
+    "gulp-webserver": "0.9.1",
+    "gulp-ng-annotate": "2.0.0"
+  }
+}

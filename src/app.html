@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/lib.css" rel="stylesheet">
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico'> -->
+</head>
+
+<body ng-app="tic-tac-toe">
+    <div>
+      <ng-view></ng-view>
+    </div>
+
+    <script type="text/javascript" src="lib.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script>
+        // if ('addEventListener' in document) {
+        //     document.addEventListener('DOMContentLoaded', function() {
+        //         FastClick.attach(document.body);
+        //     }, false);
+        // }
+        angular.module('tic-tac-toe', ['tic-tac-toe.routes', 'tic-tac-toe.home'])
+    </script>
+    <script type="text/javascript" src="templates.js"></script>
+</body>
+
+</html>
