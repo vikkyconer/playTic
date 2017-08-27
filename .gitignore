@@ -1,1 +1,7 @@
 node_modules
+src/app.js
+src/app.js.*
+src/lib.js
+src/lib.js.*
+src/templates.js
+src/templates.js.
